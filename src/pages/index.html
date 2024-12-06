@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garagem de Veículos</title>
+    <style>
+        /* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+/* Seção de Introdução */
+#intro {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+#intro h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+}
+
+#intro p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+#services .imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#services .imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#services p {
+    text-align: center;
+    font-size: 1em;
+    color: #555;
+}
+
+#services ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#services ul li {
+    font-size: 1em;
+    color: #555;
+}
+
+#services ul li strong {
+    color: #333;
+}
+
+
+
+/* Seção Sobre */
+#about {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Garagem de Veículos</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro">Início</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h2>Bem-vindo à nossa Garagem!</h2>
+            <p>Oferecemos serviços de manutenção e reparo para todos os tipos de veículos. Confie nos nossos profissionais qualificados!</p>
+            <p>Além disso, vendemos carros com preços muito atrativos, com parcelas negociáveis e sem juros!</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <section id="services">
+            <h2>Nessa seção, há imagens dos nossos carros que estão à venda</h2> <br><br><br><br>
+            
+            <h2>Porsche Cayenne</h2>
+            <div class="imagem">
+                <img src="./assets/Porsche Cayenne S 2024.jpeg" alt="Imagem de um Porsche Cayenne">
+            </div>
+            <ul>
+                <li><strong>Nome:</strong> Porsche Cayenne</li>
+                <li><strong>Fabricante:</strong> Porsche</li>
+                <li><strong>Ano:</strong> 2024</li>
+                <li><strong>Modelo:</strong> Cayenne</li>
+                <li><strong>Combustível:</strong> Gasolina</li>
+                <li><strong>Cor:</strong> Preto</li>
+                <li><strong>Preço:</strong> R$ 450.000</li>
+            </ul><br><br>
+        
+            <h2>BMW M2</h2>
+            <div class="imagem">
+                <img src="./assets/La Dodge Challenger Hellcat _ACR Special_ 2024 pourrait être une.jpeg" alt="Imagem de um BMW M2">
+            </div>
+            <ul>
+                <li><strong>Nome:</strong> BMW M2</li>
+                <li><strong>Fabricante:</strong> BMW</li>
+                <li><strong>Ano:</strong> 2024</li>
+                <li><strong>Modelo:</strong> M2</li>
+                <li><strong>Combustível:</strong> Gasolina</li>
+                <li><strong>Cor:</strong> Azul</li>
+                <li><strong>Preço:</strong> R$ 350.000</li>
+            </ul><br><br>
+        
+            <h2>Audi S8</h2>
+            <div class="imagem">
+                <img src="./assets/Audi S8.jpeg" alt="Imagem de um Audi S8">
+            </div>
+            <ul>
+                <li><strong>Nome:</strong> Audi S8</li>
+                <li><strong>Fabricante:</strong> Audi</li>
+                <li><strong>Ano:</strong> 2023</li>
+                <li><strong>Modelo:</strong> S8</li>
+                <li><strong>Combustível:</strong> Gasolina</li>
+                <li><strong>Cor:</strong> Prata</li>
+                <li><strong>Preço:</strong> R$ 500.000</li>
+            </ul><br><br>
+        
+            <h2>Mercedes C-180</h2>
+            <div class="imagem">
+                <img src="./assets/Carros na Web _ Mercedes-Benz C180 Avantgarde 1_6 2016.jpeg" alt="Imagem de um Mercedes C-180">
+            </div>
+            <ul>
+                <li><strong>Nome:</strong> Mercedes C-180</li>
+                <li><strong>Fabricante:</strong> Mercedes-Benz</li>
+                <li><strong>Ano:</strong> 2016</li>
+                <li><strong>Modelo:</strong> C-180</li>
+                <li><strong>Combustível:</strong> Gasolina</li>
+                <li><strong>Cor:</strong> Branco</li>
+                <li><strong>Preço:</strong> R$ 120.000</li>
+            </ul><br><br>
+        
+            <h2>Jaguar F-Type</h2>
+            <div class="imagem">
+                <img src="./assets/2016-Jaguar-FType-R-002.jpeg" alt="Imagem de um Jaguar F-Type">
+            </div>
+            <ul>
+                <li><strong>Nome:</strong> Jaguar F-Type</li>
+                <li><strong>Fabricante:</strong> Jaguar</li>
+                <li><strong>Ano:</strong> 2022</li>
+                <li><strong>Modelo:</strong> F-Type R</li>
+                <li><strong>Combustível:</strong> Gasolina</li>
+                <li><strong>Cor:</strong> Vermelho</li>
+                <li><strong>Preço:</strong> R$ 600.000</li>
+            </ul><br>
+        </section>
+        
+    </section>    
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma garagem especializada em oferecer serviços completos para manutenção de veículos. Nossa equipe é formada por profissionais altamente capacitados, com anos de experiência no mercado automobilístico.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Garagem de Veículos. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
