@@ -25,7 +25,7 @@ const veiculosRotas = require('./src/routes/Veiculo');
 
 // definição de parâmetros do servidor
 const hostname = '127.0.0.1';
-const port = 3000;
+const port = 8080;
 
 app.get('/', (req, res) => {
   const arquivoHtml = fs.readFileSync('./src/pages/index.html');
